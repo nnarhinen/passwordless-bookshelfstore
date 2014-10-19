@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/nnarhinen/passwordless-bookshelfstore.svg)](https://travis-ci.org/nnarhinen/passwordless-bookshelfstore)
+
 passwordless-bookshelfstore
 ===========================
 
