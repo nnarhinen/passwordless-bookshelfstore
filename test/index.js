@@ -27,7 +27,7 @@ var beforeEachTest = function(done) {
   knex.schema.createTable('tokens', function(table) {
     table.increments('id').primary();
     table.string('token').unique();
-    table.string('uid');
+    table.string('uid').unique();
     table.timestamp('ttl');
     table.string('origin');
   }).then(function() { done(); }).catch(done);

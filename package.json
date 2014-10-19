@@ -21,5 +21,10 @@
     "bookshelf": "~0.7.7",
     "knex": "~0.7.3",
     "sqlite3": "~3.0.2"
+  },
+  "dependencies": {
+    "passwordless-tokenstore": "0.0.10",
+    "bcrypt": "~0.8.0",
+    "bluebird": "~2.3.6"
   }
 }
